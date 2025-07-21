@@ -408,28 +408,35 @@ img {
   height: auto;
 }
 
+
+
+
 @media screen and (max-width: 768px) {
   header {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 15px;
   }
 
   .top-left .left,
   .top-right .right {
-    font-size: 12px;
-    margin: 6px 8px;
-    width: 100%;
-    max-width: 200px;
+    font-size: 13px;
+    margin: 6px 4px;
+    width: auto;
+    min-width: 140px;
+    flex-grow: 1;
   }
 
-  .about-us .our-images img,
-  .period-left,
-  .period-right,
-  .first-left,
-  .first-right,
-  .type-logo {
-    width: 90vw !important;
-    height: auto !important;
+  .about-us .our-images {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .about-us .our-images img {
+    width: 90vw;
+    max-width: 280px;
+    height: auto;
+    border-radius: 12px;
   }
 
   .childabuse .first-period,
@@ -439,23 +446,42 @@ img {
   .abuse-type .actual-types {
     flex-direction: column !important;
     align-items: center !important;
+    gap: 20px;
   }
 
   .first-text, .second-text, .third-text, .forth-text {
+    flex: none !important;
+    width: 90vw !important;
+    max-width: 400px;
     padding: 10px 0;
     text-align: center;
-    min-width: auto;
-    flex: none;
-    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .period-left,
+  .period-right,
+  .first-left,
+  .first-right {
+    width: 90vw !important;
+    max-width: 200px;
+    margin-top: 20px;
   }
 
   .type-logo {
+    width: 90vw !important;
+    max-width: 320px;
     height: auto !important;
-    padding: 20px 10px;
+    padding: 15px 10px;
+    margin: 0 auto 25px auto;
   }
 
   .type-logo img {
     width: 100% !important;
-    margin: 0 0 15px 0 !important;
+    height: auto !important;
+    margin-bottom: 15px !important;
+  }
+
+  .underline {
+    width: 95% !important;
   }
 }

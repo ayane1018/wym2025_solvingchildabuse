@@ -234,17 +234,6 @@ h3{
     padding: 10px 20px;
 }
 
-@media (max-width: 768px) {
-  .actual-types {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .type-logo {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-}
 
 .actual-types{
     display:flex;
@@ -417,4 +406,56 @@ h4{
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-left .left,
+  .top-right .right {
+    font-size: 12px;
+    margin: 6px 8px;
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .about-us .our-images img,
+  .period-left,
+  .period-right,
+  .first-left,
+  .first-right,
+  .type-logo {
+    width: 90vw !important;
+    height: auto !important;
+  }
+
+  .childabuse .first-period,
+  .current-situation .second-period,
+  .current-situation .third-period,
+  .current-situation .forth-period,
+  .abuse-type .actual-types {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .first-text, .second-text, .third-text, .forth-text {
+    padding: 10px 0;
+    text-align: center;
+    min-width: auto;
+    flex: none;
+    width: 90vw;
+  }
+
+  .type-logo {
+    height: auto !important;
+    padding: 20px 10px;
+  }
+
+  .type-logo img {
+    width: 100% !important;
+    margin: 0 0 15px 0 !important;
+  }
 }

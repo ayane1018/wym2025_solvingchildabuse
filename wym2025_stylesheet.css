@@ -1,0 +1,403 @@
+header{
+    background-color:rgb(54, 54, 128);
+    background-size:cover;
+    height:80px;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+
+button{
+    background:none;
+    border:none;
+    padding:0;
+    font:inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.top-left{
+    padding-left:40px;
+    font-size:35px;
+    font-weight:5px;
+}
+
+.left{
+    padding-left:40px;
+}
+
+.top-right{
+    display:flex;
+    justify-content:flex-end;
+    gap:90px;
+    padding-right:80px;
+    font-size:20px;
+}
+
+
+
+
+
+
+.container{
+    position:relative;
+    height:800px;
+    background-color:rgb(54, 54, 128);
+    overflow: hidden;
+    z-index: 0;
+    text-align:center;
+    border-bottom:solid 1px white;
+}
+
+.container::before{
+    content: "";              
+    position: absolute;         
+    inset:0;
+    background-image:url(360_F_586195067_j0O9wz2qVytAhim36idl1YLsejC76mg8.jpg);
+    background-size:cover;
+    opacity: 0.3;               
+    z-index: -1;   
+    pointer-events:none;
+}
+
+.container h2{
+    font-size:30px;
+    color:white;
+    padding-top:70px;
+    margin-bottom:10px;
+    font-weight:normal;
+}
+
+.container h1{
+    font-size:150px;
+    color:white;
+    padding-top:10px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.container-text{
+    margin-top:150px;
+}
+
+.container-subtext{
+    margin-top:190px;
+}
+
+.container-subtext h2{
+    font-size:20px;
+}
+
+
+
+
+
+.top-wrapper{
+    background-color:rgb(60, 60, 121);
+    background-size:cover;
+}
+
+
+
+.about-us{
+    text-align:left;
+    color:white;
+    scroll-margin-top: 80px;
+}
+
+h3{
+    font-size:50px;
+    margin-bottom:20px;
+    margin-left:30px;
+    color:white;
+}
+
+.our-text{
+    font-size:20px;
+    margin-left:30px;
+    line-height:1.5;
+}
+
+.a1{
+    margin-bottom:50px;
+    margin-top:30px;
+}
+
+.a2{
+    font-size:30px;
+    margin-bottom:5px;
+}
+
+.a3{
+    padding-bottom:0px;
+    padding-top:5px;
+}
+
+.fa-solid{
+    font-size: 1.0em
+}
+
+.a4{
+    margin-top:0;
+}
+
+.our-images{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+    height:250px;
+    margin-top:80px;
+    margin-bottom:20px;
+}
+
+.underline{
+    height:80px;
+    border-bottom:solid 1px;
+    width:90%;
+    margin:auto;
+    color:white;
+}
+
+
+
+
+
+.content-title h3{
+    text-align:center;
+    margin-top:0;
+}
+
+.childabuse{
+    padding:60px 0;
+    color:white;
+    scroll-margin-top:100px;
+}
+
+.first-text{
+    text-align:center;
+    margin-top:40px;
+    font-size:20px;
+}
+
+.first-period{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    gap:5px;
+    align-items:center;
+}
+
+.first-text{
+    flex:1;
+}
+
+.first-text p{
+    line-height:1.5;
+}
+
+.first-left, .first-right{
+    width:300px;
+    flex:none;
+    margin-top:50px;
+}
+
+.first-left img, .first-right img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
+
+.first-left{
+    margin-left:40px;
+}
+
+.first-right{
+    margin-right:40px;
+}
+
+.first-text p{
+    line-height:1.5;
+}
+
+
+
+
+.abuse-type {
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.actual-types{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    align-items: stretch;
+}
+
+.type-logo{
+    background-color:antiquewhite;
+    height:500px;
+    width:300px;
+    border-radius:12px;
+    padding:10px;
+    color:rgb(60, 60, 121);
+    
+}
+
+.type-logo img{
+    width:280px;
+    align-items:center;
+    border-radius:12px;
+    margin-left:10px;
+}
+
+.type-logo h4{
+    font-size:25px;
+    margin:20px;
+}
+
+.type-title h3{
+    margin-top:0px;
+    margin-bottom:60px;
+}
+
+
+.current-situation{
+    color:white;
+}
+
+.current-situation h3{
+    text-align:center;
+    margin-top:60px;
+}
+
+.second-period{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items:center;
+    margin-top:40px;
+}
+
+.third-period{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    margin-top:100px;
+}
+
+.second-text, .third-text{
+    flex:1;
+    text-align:center;
+}
+
+.second-text p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+.second-text h4{
+    margin-top:0px;
+}
+
+.third-text{
+    margin-top:50px;
+}
+
+.period-right, .period-left{
+    width:300px;
+    flex:none;
+    margin-top:50px;
+}
+
+.period-right img, .period-left img{
+    width:100%;
+    display:block;
+    border-radius:12px;
+}
+
+.period-right{
+    margin-right:50px;
+    margin-left:15px;
+}
+
+.period-left{
+    margin-left:50px;
+    margin-right:15px;
+}
+
+h4{
+    font-size:30px;
+}
+
+.activity{
+    scroll-margin-top: 80px;
+}
+
+.activity-title spam{
+    color:white;
+    font-size:30px;
+}
+
+.first-activity{
+    margin-top:50px;
+    color:rgb(54, 54, 128);
+    margin-left:120px;
+    width:80%;
+    height:180px;
+    background-color:antiquewhite;
+    border-radius:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px
+}
+
+.second-activity{
+    margin-top:50px;
+    color:rgb(54, 54, 128);
+    margin-left:120px;
+    width:80%;
+    height:180px;
+    background-color:antiquewhite;
+    border-radius:10px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:20px
+}
+
+.ig-content{
+    font-size:20px;
+}
+
+.poll-content{
+    font-size:20px;
+}
+
+.ig-account a{
+    font-size:20px;
+    color:rgb(54, 54, 128);
+    width:150px;
+    height:45px;
+}
+
+.ig-account{
+    background-color:white;
+    width:150px;
+    height:45px;
+    text-decoration: none;
+    display:inline-box;
+    border-radius:2px;
+    opacity:0.8;
+}
+
+.activity-name h4{
+    margin-top:0px;
+}

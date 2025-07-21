@@ -401,3 +401,8 @@ h4{
 .activity-name h4{
     margin-top:0px;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
